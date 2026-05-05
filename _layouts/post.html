@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    {% include head.html %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+  </head>
+  <body>
+    <main>
+      {% include header.html %}
+      <div id="big-feature">
+        <figure class="banner-figure">
+          <img
+            src="{{ page.banner }}"
+            alt="{{ page.title }}"
+            class="feature-banner"
+          />
+        </figure>
+        <div class="max-container">
+          <div class="big-feature-legend">
+            <div class="feature-legend-info">
+              <span class="tag">
+                {% include get-category.html category=page.categories.first %}
+              </span>
+              <p>{% include date.html date=page.date %}</p>
+            </div>
+            <h2>{{ page.title }}</h2>
+            <p class="description">{{ page.description }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-container">
+        <section id="single">
+          {{ content }}
+        </section>
+      </div>
+
+      <div class="mb-48">
+        {% include related-posts.html category=page.categories.first exclude=page.url limit=5 %}
+      </div>
+      {% include footer.html %}
+    </main>
+  </body>
+</html>

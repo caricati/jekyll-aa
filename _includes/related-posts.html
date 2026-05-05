@@ -1,0 +1,32 @@
+{% assign posts = site.categories[include.category] %}
+{% assign count = 0 %}
+{% if posts.size > 1 %}
+  <section class="list-section">
+    <div class="max-container">
+      <h2 class="heading-bars">
+        relacionados
+      </h2>
+      <div class="grid">
+        {% for post in posts %}
+        {% if post.url != include.exclude and count < 4 %}
+        {% assign count = count | plus: 1 %}
+        <article>
+          <figure class="photo-figure">
+            <a href="{{ post.url }}">
+              <img src="{{ post.thumb }}" alt="{{ post.title }}" />
+              <div class="category">{% include get-category.html category=post.categories.first %}</div>
+            </a>
+          </figure>
+          <div class="inner">
+            <h3>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </h3>
+            {% include date.html date=post.date %}
+          </div>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}

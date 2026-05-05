@@ -1,0 +1,38 @@
+{% capture title %}
+  {% if page.title %}
+    {{ page.title }} - {{ site.title }}
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+{% endcapture %}
+
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+rel="stylesheet"
+/>
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+<!-- head seo -->
+<meta name="description" content="{{ page.description | default: site.description }}">
+<meta name="keywords" content="{{ page.tags | default: site.keywords | join: ',' }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+ 
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ title | strip }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:image" content="{{ page.image | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title | strip }}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:image" content="{{ page.image | absolute_url }}">
+
+<title>{{ title | strip }}</title>
+

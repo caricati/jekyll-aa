@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <main>
+      {% include header.html %}
+      {% assign filtered_posts = site.categories[page.category] %}
+      <section id="category">
+        <header class="header-category">
+          <div class="max-container">
+            <p class="news-txt">Novidades</p>
+            <h1>{{ page.title }}</h1>
+            <p class="description">{{ page.description }}</p>
+          </div>
+        </header>
+        <section class="list-section mb-48">
+          <div class="max-container">
+            <div class="list">
+              {% for post in filtered_posts %}
+              <article>
+                <figure class="photo-figure">
+                  <a href="{{ post.url }}">
+                    <img src="{{ post.thumb }}" alt="{{ post.title }}" />
+                  </a>
+                </figure>
+                <div>
+                  <div class="info">
+                    <p>
+                      <a href="{{ post.categories.first | absolute_url }}">
+                        {% include get-category.html category=post.categories.first %}
+                      </a>
+                    </p>
+                    {% include date.html date=post.date %}
+                  </div>
+                  <h3>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                  </h3>
+                  <p class="description">{{ post.description }}</p>
+                </div>
+              </article>
+              {% endfor %}
+            </div>
+          </div>
+        </section>
+      </section>
+      {% include footer.html %}
+    </main>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <main>
+      {% include header.html %}
+      {% assign featured = site.posts.first %}
+      <div id="big-feature">
+        <figure class="banner-figure">
+          <img
+            src="{{ featured.banner }}"
+            alt="{{ featured.title }}"
+            class="feature-banner"
+          />
+        </figure>
+        <div class="max-container">
+          <div class="big-feature-legend">
+            <div class="feature-legend-info">
+              <span class="tag">
+                {% include get-category.html category=featured.categories.first %}
+              </span>
+            </div>
+            <h2>{{ featured.title }}</h2>
+            <p class="description">{{ featured.description }}</p>
+            <a href="{{ featured.url }}" class="btn feature-primary">Leia mais</a>
+          </div>
+        </div>
+      </div>
+      <section class="list-section mb-48">
+        <div class="max-container">
+          <h2 class="heading-bars">
+            últimas novidades
+          </h2>
+          <div class="grid">
+            {% for post in site.posts limit:4 offset:1 %}
+            <article>
+              <figure class="photo-figure">
+                <a href="{{ post.url }}">
+                  <img src="{{ post.thumb }}" alt="{{ post.title }}" />
+                  <div class="category">
+                    {% include get-category.html category=post.categories.first %}
+                  </div>
+                </a>
+              </figure>
+              <div class="inner">
+                <h3>
+                  <a href="{{ post.url }}">
+                    {{ post.title }}
+                  </a>
+                </h3>
+              </div>
+            </article>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <section class="list-section mb-64">
+        <div class="max-container">
+          <h2 class="heading-bars">
+            explore categorias
+          </h2>
+          <div class="grid">
+            <a class="category-card" href="{{ "/carros" | absolute_url }}">
+              <img class="category-icon" src="./assets/img/cat-car.svg" alt="Carros" />
+              <h3>Carros</h3>
+              <p>{{ site.categories.carros.size | default: 0 }} publicações</p>
+            </a>
+            <a class="category-card" href="{{ "/motos" | absolute_url }}">
+              <img class="category-icon" src="./assets/img/cat-moto.svg" alt="Motos" />
+              <h3>Motos</h3>
+              <p>{{ site.categories.motos.size | default: 0 }} publicações</p>
+            </a>
+            <a class="category-card" href="{{ "/eletricos" | absolute_url }}">
+              <img class="category-icon" src="./assets/img/cat-eletric.svg" alt="Motos" />
+              <h3>Elétricos</h3>
+              <p>{{ site.categories.eletricos.size | default: 0 }} publicações</p>
+            </a>
+            <a class="category-card" href="{{ "/customizacoes" | absolute_url }}">
+              <img class="category-icon" src="./assets/img/cat-custom.svg" alt="Motos" />
+              <h3>Customizações</h3>
+              <p>{{ site.categories.customizacoes.size | default: 0 }} publicações</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="list-section mb-48">
+        <div class="max-container">
+          <div class="list">
+            {% for post in site.posts limit:10 offset:5 %}
+            <article>
+              <figure class="photo-figure">
+                <a href="{{ post.url }}">
+                  <img src="{{ post.thumb }}" alt="{{ post.title }}" />
+                </a>
+              </figure>
+              <div>
+                <div class="info">
+                  <p>
+                    <a href="{{ post.categories.first | absolute_url }}">
+                      {% include get-category.html category=post.categories.first %}
+                    </a>
+                  </p>
+                  {% include date.html date=post.date %}
+                </div>
+                <h3>
+                  <a href="{{ post.url }}">
+                    {{ post.title }}
+                  </a>
+                </h3>
+                <p class="description">{{ post.description }}</p>
+              </div>
+            </article>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      {% include footer.html %}
+    </main>
+  </body>
+</html>
