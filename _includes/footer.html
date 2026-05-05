@@ -1,0 +1,85 @@
+<footer id="footer">
+  <div class="max-container footer-content">
+    <div class="footer-info">
+      <a href="{{ site.url }}" class="logo">
+        <img src="{{ "/assets/img/auto-adrenalina.svg" | absolute_url }}" alt="Auto Pulse" />
+      </a>
+      <p class="site-description">Seu destino definitivo para as últimas notícias automotivas e análises sobre carros, veículos elétricos, motos e muito mais.</p>
+    </div>
+    <div class="footer-links">
+      <h2>Atalhos</h2>
+      <ul>
+        <li>
+          <a href="{{ "/carros" | absolute_url }}">
+            Carros
+          </a>
+        </li>
+        <li>
+          <a href="{{ "/motos" | absolute_url }}">
+            Motos
+          </a>
+        </li>
+        <li>
+          <a href="{{ "/eletricos" | absolute_url }}">
+            Elétricos
+          </a>
+        </li>
+        <li>
+          <a href="{{ "/customizacoes" | absolute_url }}">
+            Customizações
+          </a>
+        </li>
+      </ul>
+      <hr />
+      <ul>
+        <li>
+          <a href="{{ "/sobre-nos" | absolute_url }}">
+            Sobre nós
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Entre em contato
+          </a>
+        </li>
+        <li>
+          <a href="{{ "/termos-de-uso" | absolute_url }}">
+            Termos de uso
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-tags">
+      <h2>Tags populares</h2>
+      <ul>
+        {% assign tags_array = "" | split: "" %}
+
+        {% for tag in site.tags %}
+          {% assign name = tag[0] %}
+          {% assign count = tag[1].size %}
+
+          {% assign item = count | append: "|" | append: name %}
+          {% assign tags_array = tags_array | push: item %}
+        {% endfor %}
+
+        {% assign sorted = tags_array | sort | reverse %}
+
+        {% for item in sorted limit: 10 %}
+          {% assign parts = item | split: "|" %}
+          {% assign count = parts[0] %}
+          {% assign name = parts[1] %}
+          {% assign slug = name | slugify: "latin" %}
+
+          <li>
+            <a href="{{ "/tag/" | append: slug | append: "/" | absolute_url }}" title="com {{ count }} artigos">
+              {{ name }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="max-container footer-copy">
+    <p>© 2026 Auto Adrenalina. Todos os direitos reservados.</p>
+  </div>
+</footer>

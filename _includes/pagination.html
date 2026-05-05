@@ -1,0 +1,85 @@
+{% if paginator and paginator.total_pages > 1 %}
+
+{% assign total = paginator.total_pages %}
+{% assign current = paginator.page %}
+{% assign window = 2 %}
+
+{% assign start = current | minus: window %}
+{% assign end = current | plus: window %}
+
+{% if start < 1 %}
+  {% assign start = 1 %}
+{% endif %}
+
+{% if end > total %}
+  {% assign end = total %}
+{% endif %}
+
+{% assign base = paginator.first_page_path %}
+
+<nav class="pagination" role="navigation" aria-label="Paginação">
+
+  {%- comment -%} Prev {%- endcomment -%}
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}"
+       rel="prev"
+       class="prev-page">
+       Anterior
+    </a>
+  {% endif %}
+
+  {%- comment -%} Primeira página + ... {%- endcomment -%}
+  {% if start > 1 %}
+    <a href="{{ paginator.first_page_path | relative_url }}">1</a>
+
+    {% if start > 2 %}
+      <span class="ellipsis">...</span>
+    {% endif %}
+  {% endif %}
+
+  {%- comment -%} Loop principal {%- endcomment -%}
+  {% for page_num in (start..end) %}
+
+    {% if page_num == current %}
+      <span class="active" aria-current="page">
+        {{ page_num }}
+      </span>
+
+    {% elsif page_num == 1 %}
+      <a href="{{ paginator.first_page_path | relative_url }}">
+        {{ page_num }}
+      </a>
+
+    {% else %}
+      <a href="{{ base | append: 'pagina/' | append: page_num | append: '/' | relative_url }}">
+        {{ page_num }}
+      </a>
+    {% endif %}
+
+  {% endfor %}
+
+  {%- comment -%} ... + Última página {%- endcomment -%}
+  {% if end < total %}
+
+    {% if end < total | minus: 1 %}
+      <span class="ellipsis">...</span>
+    {% endif %}
+
+    <a href="{{ base | append: 'pagina/' | append: total | append: '/' | relative_url }}">
+      {{ total }}
+    </a>
+
+  {% endif %}
+
+  {%- comment -%} Next {%- endcomment -%}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}"
+       rel="next"
+       class="next-page">
+       Próxima
+    </a>
+  {% endif %}
+
+</nav>
+
+{% endif %}

@@ -7,13 +7,25 @@ description: >-
   "Notícias automotivas, motos, supercarros, reviews completos, lançamentos e veículos elétricos. 
   Acompanhe tudo sobre o universo automotivo no Auto Adrenalina."
 
-# theme: minima
 email: thales.caricati@gmail.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 permalink: /:categories/:title/
 
+# tag_page_layout: tag
+# tag_page_dir: tag
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate-v2
+  # - jekyll-tagging
+
+pagination:
+  enabled: true
+  per_page: 20
+  sort_field: "date"
+  sort_reverse: true
+  permalink: "/pagina/:num/"
+  title: ":title - página :num"

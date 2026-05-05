@@ -12,9 +12,14 @@ tags:
   - supercarros
   - ford
   - mustang
-  - motor V8
-  - Mustang Dark Horse SC
-  - 795 cavalos
+  - V8
+  - Ford Mustang Dark Horse SC 2026
+  - Mustang Dark Horse SC especificações
+  - muscle car americano potente
+  - V8 supercharged Ford Mustang
+  - Mustang vs supercarros europeus
+  - Track Pack Mustang Dark Horse
+  - Ford Racing tecnologia de pista
 ---
 
 O novo Ford Mustang Dark Horse SC 2026 representa um novo capítulo para a linhagem Mustang. Desenvolvido para ocupar o espaço entre o Mustang Dark Horse tradicional e o radical Mustang GTD, o modelo chega com uma proposta clara: entregar desempenho de supercarro sem abandonar a identidade clássica dos muscle cars americanos. O resultado é um cupê agressivo, tecnológico e extremamente potente, criado com forte influência das pistas de corrida.

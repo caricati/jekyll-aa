@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Porsche Taycan: o elétrico que redefiniu o DNA esportivo da Porsche"
-date: 2026-05-04 12:25:22 -0300
+date: 2026-05-05 12:25:22 -0300
 banner: /uploads/26/05/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/porsche-taycan-cover.jpg
 thumb: /uploads/26/05/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/thumb-porsche-taycan.jpg
 image: /uploads/26/05/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/thumb-porsche-taycan.jpg
@@ -10,19 +10,17 @@ categories:
   - eletricos
   - carros
 tags:
+  - carros elétricos
+  - supercarros
   - Porsche Taycan
-  - carro elétrico porsche
   - sedan elétrico premium
   - carro elétrico esportivo
   - porsche taycan preço
-  - porsche taycan autonomia
-  - porsche taycan turbo s
   - carros elétricos 2026
   - carro elétrico de luxo
   - desempenho carros elétricos
   - tecnologia automotiva
   - carros elétricos no brasil
-  - review porsche taycan
   - porsche taycan ficha técnica
 ---
 

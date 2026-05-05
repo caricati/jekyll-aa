@@ -6,6 +6,7 @@ gem "jekyll", "~> 4.3.1"
 gem "liquid", ">= 4.0.4"
 gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
+gem "jekyll-paginate-v2"
 gem "minima", "~> 2.5"
 gem "jekyll-multiple-languages-plugin"
 

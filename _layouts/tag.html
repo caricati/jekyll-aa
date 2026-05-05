@@ -1,3 +1,7 @@
+---
+description: Explore artigos relacionados por tag e descubra notícias, reviews e conteúdos organizados por temas do universo automotivo.
+---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,12 +10,12 @@
   <body>
     <main>
       {% include header.html %}
-      {% assign filtered_posts = paginator.posts %}
+      {% assign filtered_posts = site.tags[page.tag] %}
       <section id="category">
         <header class="header-category">
           <div class="max-container">
-            <p class="news-txt">Novidades</p>
-            <h1>{{ page.title }}</h1>
+            <p class="news-txt">Tag</p>
+            <h1>#{{ page.tag }}</h1>
             <p class="description">{{ page.description }}</p>
           </div>
         </header>
@@ -42,7 +46,6 @@
               </article>
               {% endfor %}
             </div>
-            {% include pagination.html %}
           </div>
         </section>
       </section>
