@@ -1,4 +1,3 @@
-# Welcome to Jekyll!
 locale: pt_BR
 
 title: Auto Adrenalina
@@ -8,7 +7,7 @@ description: >-
   "Notícias automotivas, motos, supercarros, reviews completos, lançamentos e veículos elétricos. 
   Acompanhe tudo sobre o universo automotivo no Auto Adrenalina."
 
-theme: minima
+# theme: minima
 email: thales.caricati@gmail.com
 twitter_username: jekyllrb
 github_username:  jekyll
