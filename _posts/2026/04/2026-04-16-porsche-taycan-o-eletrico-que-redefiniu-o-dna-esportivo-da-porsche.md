@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Porsche Taycan: o elétrico que redefiniu o DNA esportivo da Porsche"
-date: 2026-05-05 12:25:22 -0300
-banner: /uploads/26/05/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/porsche-taycan-cover.jpg
-thumb: /uploads/26/05/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/thumb-porsche-taycan.jpg
-image: /uploads/26/05/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/thumb-porsche-taycan.jpg
+date: 2026-04-16 15:00:00 -0300
+banner: /uploads/26/04/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/porsche-taycan-cover2.jpg
+thumb: /uploads/26/04/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/thumb-porsche-taycan.jpg
+image: /uploads/26/04/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/thumb-porsche-taycan.jpg
 description: Descubra o Porsche Taycan, o carro elétrico esportivo da Porsche que combina alta performance, tecnologia de ponta e design inovador. Conheça versões, autonomia, desempenho e impacto no mercado.
 categories:
   - eletricos
@@ -43,7 +43,7 @@ Na prática, essa arquitetura avançada se traduz principalmente em tempos de re
 
 ## Dinâmica e dirigibilidade
 
-![Porsche Taycan Exterior](/uploads/26/05/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/porsche-taycan-exterior.jpg){:class="auto-width"}
+![Porsche Taycan Exterior](/uploads/26/04/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/porsche-taycan-exterior.jpg){:class="auto-width"}
 
 Foi projetada para entregar uma experiência de condução que respeita o legado esportivo da Porsche, mesmo sendo um carro totalmente elétrico. Um dos fatores centrais para isso é o seu centro de gravidade extremamente baixo, resultado do posicionamento das baterias no assoalho. Essa característica melhora significativamente a estabilidade em curvas, reduz a rolagem da carroceria e aproxima a sensação ao volante do que se espera de um esportivo tradicional da marca.
 
@@ -53,7 +53,7 @@ Além disso, a resposta imediata dos motores elétricos contribui para uma dirig
 
 ## Design e interior tecnológico
 
-![Porsche Taycan Interior](/uploads/26/05/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/porsche-taycan-interior.jpg){:class="auto-width"}
+![Porsche Taycan Interior](/uploads/26/04/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/porsche-taycan-interior.jpg){:class="auto-width"}
 
 O design traduz com precisão a proposta de um esportivo elétrico moderno, sem abandonar os traços clássicos da Porsche. A silhueta baixa e alongada, com linhas fluidas e aerodinâmicas, reforça a identidade esportiva enquanto otimiza a eficiência energética. Elementos como os faróis com assinatura em LED e a faixa luminosa contínua na traseira criam uma presença visual marcante, ao mesmo tempo em que destacam o caráter futurista do modelo.
 

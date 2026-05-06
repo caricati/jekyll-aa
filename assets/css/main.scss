@@ -7,7 +7,7 @@ $color-body: #0B0B0D;
 $color-header: #000102;
 $color-header-line: #0c0c0c;
 $color-title: #FFFFFF;
-$color-text: #B8BCC7;
+$color-text: #d2d4db;
 $color-line: #211e1c;
 $color-box: #151517;
 $color-muted: #8A8F98;
@@ -451,7 +451,6 @@ hr {
 
 #single {
   margin-top: -4rem;
-  color: $color-title;
   padding: 1.5rem;
   background-color: rgba(11, 11, 14, 0.75);
   backdrop-filter: blur(10px);
@@ -461,6 +460,10 @@ hr {
 }
 
 #single, .article-text-box {
+  p {
+    line-height: 1.5;
+  }
+
   p, h1, h2, h3, h4, h5, h6, ul, ol, li, pre, blockquote {
     margin-bottom: 1rem;
   }

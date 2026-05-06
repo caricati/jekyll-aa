@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Como a recarga ultrarrápida está mudando o jogo para os carros elétricos"
-date: 2026-05-04 09:57:11 -0300
+date: 2026-04-14 15:00:00 -0300
 trending: true
-banner: /uploads/26/05/como-a-recarga-ultrarrapida-esta-mudando-o-jogo-para-os-carros-eletricos/banner-sketch-eletricos.jpg
-thumb: /uploads/26/05/como-a-recarga-ultrarrapida-esta-mudando-o-jogo-para-os-carros-eletricos/thumb-sketch-eletricos.jpg
-image: /uploads/26/05/como-a-recarga-ultrarrapida-esta-mudando-o-jogo-para-os-carros-eletricos/thumb-sketch-eletricos.jpg
+banner: /uploads/26/04/como-a-recarga-ultrarrapida-esta-mudando-o-jogo-para-os-carros-eletricos/banner-sketch-eletricos.jpg
+thumb: /uploads/26/04/como-a-recarga-ultrarrapida-esta-mudando-o-jogo-para-os-carros-eletricos/thumb-sketch-eletricos.jpg
+image: /uploads/26/04/como-a-recarga-ultrarrapida-esta-mudando-o-jogo-para-os-carros-eletricos/thumb-sketch-eletricos.jpg
 description: Como a arquitetura de 800V está revolucionando os carros elétricos, permitindo recargas de 10% a 80% em apenas 20 minutos. Entenda a tecnologia de recarga ultrarrápida, os benefícios das novas baterias e o que muda para os modelos premium e intermediários em 2026.
 categories:
   - eletricos

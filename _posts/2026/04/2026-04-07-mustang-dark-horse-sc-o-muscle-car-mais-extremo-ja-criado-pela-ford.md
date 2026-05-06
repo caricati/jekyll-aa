@@ -4,7 +4,7 @@ thumb: /uploads/26/04/mustang-dark-horse-sc-o-muscle-car-mais-extremo-ja-criado-
 image: /uploads/26/04/mustang-dark-horse-sc-o-muscle-car-mais-extremo-ja-criado-pela-ford/mustang-sc-thumb.jpg
 layout: post
 title: "O muscle car mais extremo já criado pela Ford: Mustang Dark Horse SC"
-date: 2026-04-30 15:00:00 -0300
+date: 2026-04-07 15:00:00 -0300
 description: O Ford Mustang Dark Horse SC 2026 chega com motor V8 supercharged de 795 cavalos, visual agressivo e tecnologias derivadas das pistas, tornando-se um dos muscle cars mais extremos já produzidos pela Ford.
 categories:
   - carros

@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "CB1000 Hornet 2026 a naked esportiva que promete dominar as ruas"
-date: 2026-05-02 09:57:11 -0300
-banner: /uploads/26/05/cb1000-hornet-a-naked-esportiva-que-promete-dominar-as-ruas/banner-hornet1000.jpg
-image: /uploads/26/05/cb1000-hornet-a-naked-esportiva-que-promete-dominar-as-ruas/thumb-hornet1000.jpg
-thumb: /uploads/26/05/cb1000-hornet-a-naked-esportiva-que-promete-dominar-as-ruas/thumb-hornet1000.jpg
+date: 2026-04-09 09:57:11 -0300
+banner: /uploads/26/04/cb1000-hornet-a-naked-esportiva-que-promete-dominar-as-ruas/banner-hornet1000.jpg
+image: /uploads/26/04/cb1000-hornet-a-naked-esportiva-que-promete-dominar-as-ruas/thumb-hornet1000.jpg
+thumb: /uploads/26/04/cb1000-hornet-a-naked-esportiva-que-promete-dominar-as-ruas/thumb-hornet1000.jpg
 description: CB1000 Hornet chega com mais de 150 cv de potência e como uma das principais nakeds esportivas do mercado, combinando motor derivado da Fireblade, design agressivo e pacote tecnológico avançado.
 categories:
   - motos
@@ -29,7 +29,7 @@ A nova Honda CB1000 Hornet 2026 marca o retorno definitivo da linha Hornet ao se
 
 A proposta da CB1000 Hornet 2026 é unir potência extrema com usabilidade urbana. Diferente das superesportivas tradicionais, a moto entrega posição de pilotagem mais confortável, ergonomia equilibrada e respostas rápidas para o uso diário, sem abrir mão da esportividade. O resultado é uma máquina que agrada tanto motociclistas experientes quanto fãs da antiga geração Hornet, que fez enorme sucesso no Brasil nos anos 2000.
 
-![CB1000 Hornet 2026](/uploads/26/05/cb1000-hornet-a-naked-esportiva-que-promete-dominar-as-ruas/hornet-1000-fullarge-design.jpg){:class="auto-width"}
+![CB1000 Hornet 2026](/uploads/26/04/cb1000-hornet-a-naked-esportiva-que-promete-dominar-as-ruas/hornet-1000-fullarge-design.jpg){:class="auto-width"}
 
 O visual da nova Hornet impressiona logo no primeiro olhar. A dianteira traz faróis full LED compactos e afiados, reforçando a identidade streetfighter da motocicleta. O tanque musculoso, as linhas angulares e a traseira curta deixam a CB1000 Hornet com aparência extremamente esportiva e moderna.
 
@@ -43,7 +43,7 @@ Além da potência elevada, a moto também chama atenção pelo ronco encorpado 
 
 A Honda equipou a CB1000 Hornet 2026 com um pacote eletrônico moderno para melhorar desempenho, segurança e controle. A motocicleta conta com acelerador eletrônico ride-by-wire, modos de pilotagem, controle de tração e painel TFT colorido de cinco polegadas.
 
-![CB1000 Hornet 2026](/uploads/26/05/cb1000-hornet-a-naked-esportiva-que-promete-dominar-as-ruas/hornet-1000-fullarge-panel.jpg){:class="auto-width"}
+![CB1000 Hornet 2026](/uploads/26/04/cb1000-hornet-a-naked-esportiva-que-promete-dominar-as-ruas/hornet-1000-fullarge-panel.jpg){:class="auto-width"}
 
 O painel oferece múltiplas opções de visualização e integração com o sistema Honda RoadSync, permitindo acesso a informações de navegação e conectividade com smartphone.
 
