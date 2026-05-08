@@ -22,11 +22,16 @@
         <img src="{{ "/assets/img/auto-adrenalina.svg" | absolute_url }}" alt="Auto Pulse" />
       </a>
       <nav class="header-menu">
-        <a class="{% if page.url == '/' %}active{% endif %}" href="{{ site.url }}">Home</a>
-        <a class="{% if current_section[1] == 'carros' %}active{% endif %}" href="{{ "/carros" | absolute_url }}">Carros</a>
-        <a class="{% if current_section[1] == 'motos' %}active{% endif %}" href="{{ "/motos" | absolute_url }}">Motos</a>
-        <a class="{% if current_section[1] == 'eletricos' %}active{% endif %}" href="{{ "/eletricos" | absolute_url }}">Elétricos</a>
-        <a class="{% if current_section[1] == 'customizacoes' %}active{% endif %}" href="{{ "/customizacoes" | absolute_url }}">Customizações</a>
+        <button type="button" class="mobile-menu-button">
+          <img src="{{ "/assets/img/menu.svg" | absolute_url }}" alt="Menu" />
+        </button>
+        <div class="header-nav">
+          <a class="{% if page.url == '/' %}active{% endif %}" href="{{ site.url }}">Home</a>
+          <a class="{% if current_section[1] == 'carros' %}active{% endif %}" href="{{ "/carros" | absolute_url }}">Carros</a>
+          <a class="{% if current_section[1] == 'motos' %}active{% endif %}" href="{{ "/motos" | absolute_url }}">Motos</a>
+          <a class="{% if current_section[1] == 'eletricos' %}active{% endif %}" href="{{ "/eletricos" | absolute_url }}">Elétricos</a>
+          <a class="{% if current_section[1] == 'customizacoes' %}active{% endif %}" href="{{ "/customizacoes" | absolute_url }}">Customizações</a>
+        </div>
       </nav>
     </div>
   </div>
