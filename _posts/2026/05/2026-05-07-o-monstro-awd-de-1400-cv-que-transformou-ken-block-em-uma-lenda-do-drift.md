@@ -8,6 +8,7 @@ image: /uploads/26/05/o-monstro-awd-de-1400-cv-que-transformou-ken-block-em-uma-
 description: "Conheça o Ford Mustang Hoonicorn, o icônico muscle car AWD de mais de 1.400 cv criado para os vídeos de Gymkhana de Ken Block. Descubra detalhes sobre seu motor V8 twin-turbo, design agressivo, tração integral, curiosidades e a engenharia extrema que transformou o Hoonicorn em uma lenda do automobilismo moderno."
 categories:
   - customizacoes
+  - carros
 tags:
   - Customização Automotiva
   - Ford Mustang Hoonicorn
