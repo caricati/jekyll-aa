@@ -1,0 +1,27 @@
+@use "variables" as *;
+
+* { margin: 0; padding: 0 }
+
+::selection {
+  background: $color-accent;
+  color: $color-title;
+}
+
+body {
+  color: $color-text;
+  font-family: $font-default;
+  background: url(../img/bg.png) repeat $color-body;
+}
+
+a {
+  color: $color-accent;
+  text-decoration: none;
+}
+
+/* Headlines */
+h1, h2, h3, h4, h5, h6 {
+  color: $color-title;
+  font-family: $font-headlines;
+  text-transform: uppercase;
+  font-weight: normal;
+}

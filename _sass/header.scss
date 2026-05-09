@@ -1,0 +1,140 @@
+@use "variables" as *;
+
+#header {
+  background-color: $color-header;
+
+  .top-header {
+    min-height: 38px;
+    border-bottom: 1px solid;
+    border-image: $color-linear-border 1;
+
+    .top-header-flex {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .top-header-trending {
+    display: flex;
+    align-items: center;
+    column-gap: 0.875rem;
+    padding: 10px 0;
+
+    p {
+      font-size: 0.875rem;
+
+      a {
+        color: $color-title;
+        &:hover {
+          color: $color-accent-hover;
+        }
+      }
+    }
+  }
+
+  .header-container {
+    height: 80px;
+    border-bottom: 2px solid;
+    border-image: $color-linear-border 1;
+  }
+
+  .header-menu {
+    height: 100%;
+    display: flex;
+  }
+
+  .header-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    position: relative;
+
+    .header-nav {
+      display: flex;
+      align-self: flex-end;
+      height: 100%;
+
+      a {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        color: $color-text;
+        text-transform: uppercase;
+        padding: 0 0.875rem;
+        font-weight: bold;
+        
+
+        &:hover {
+          color: $color-title;
+        }
+        
+        &.active {
+          color: $color-accent;
+          border-bottom: 2px solid $color-accent;
+        }
+      }
+    }
+  }
+
+  .mobile-menu-button {
+    height: 42px;
+    padding: 0 1rem;
+    appearance: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+
+  @media screen and (max-width: 810px) {
+    .mobile-menu-button {
+      display: block;
+      align-self: center;
+    }
+    
+    .header-navbar .header-nav {
+      // display: none;
+
+      // open:
+      width: 100%;
+      height: auto;
+      display: none;
+      background: $color-body;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      z-index: 10;
+      border-radius: 0 0 0.5rem 0.5rem;
+      border-left: 1px solid $color-line;
+      border-right: 1px solid $color-line;
+      border-bottom: 1px solid $color-line;
+      box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+
+      &.show {
+        display: block;
+      }
+
+      a {
+        display: block;
+        padding: 20px;
+
+        &.active {
+          color: $color-accent;
+          border-bottom: none;
+          border-left: 2px solid $color-accent;
+
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .top-header {
+      display: none;
+    }
+  }
+}

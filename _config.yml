@@ -4,23 +4,20 @@ title: Auto Adrenalina
 url: "https://autoadrenalina.com"
 baseurl: ""
 description: >-
-  "Notícias automotivas, motos, supercarros, reviews completos, lançamentos e veículos elétricos. 
-  Acompanhe tudo sobre o universo automotivo no Auto Adrenalina."
+  "Sua revista automotiva Auto Adrenalina traz as últimas notícias automotivas sobre carros, motos, superesportivos, veículos elétricos, reviews, lançamentos e tecnologia automotiva em um local moderno e atualizado semanalmente."
 
 email: thales.caricati@gmail.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 permalink: /:categories/:title/
-
-# tag_page_layout: tag
-# tag_page_dir: tag
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate-v2
-  # - jekyll-tagging
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 pagination:
   enabled: true

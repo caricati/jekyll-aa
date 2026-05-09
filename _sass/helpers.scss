@@ -1,0 +1,99 @@
+@use "variables" as *;
+
+.max-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 1264px)  {
+    margin: 0 1rem;
+  }
+}
+
+.left {
+  float: left;
+}
+
+img.left {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.right {
+  float: right;
+}
+
+img.right {
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.mb-16 {
+  margin-bottom: 1rem;
+}
+
+.mb-32 {
+  margin-bottom: 2rem;
+}
+
+.mb-48 {
+  margin-bottom: 3rem;
+}
+
+.mb-64 {
+  margin-bottom: 4rem;
+}
+
+hr {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid;
+  border-image: $color-linear-border 1;
+}
+
+.label {
+  color: $color-accent;
+  background-color: $color-accent-bg;
+  font-family: $font-headlines;
+  padding: 0.125rem 0.875rem;
+  border-radius: 0.25rem; 
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.tag {
+  font-size: 1rem;
+  color: $color-title;
+  background-color: $color-accent;
+  font-family: $font-headlines;
+  padding: 0.125rem 0.875rem;
+  border-radius: 2px; 
+  text-transform: uppercase;
+}
+
+.auto-width {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+
+  &.feature-primary {
+    color: $color-title;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem 0.8rem;
+    border-radius: 0.5rem;
+    border: 2px solid $color-accent;
+    font-family: $font-headlines;
+    font-size: 1.125rem;
+    transition: 250ms ease all;
+
+    &:hover {
+      background-color: $color-accent;
+    }
+  }
+}
