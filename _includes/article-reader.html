@@ -1,0 +1,135 @@
+
+{% if page.audios %}
+  <button type="button" class="btn-article-reader paused">
+    <svg
+      class="audio-wave"
+      width="26"
+      height="26"
+      viewBox="0 0 26 26"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect class="bar bar1" x="2"  y="9" width="3" height="6" rx="2"/>
+      <rect class="bar bar2" x="8"  y="4"  width="3" height="16" rx="2"/>
+      <rect class="bar bar3" x="14" y="4"  width="3" height="16" rx="2"/>
+      <rect class="bar bar4" x="20" y="9"  width="3" height="6" rx="2"/>
+    </svg>
+    Ouvir o artigo
+    <span class="audio-duration">-- --</span>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const audioPlaylist = {{ page.audios | jsonify }};
+  
+      if (!audioPlaylist || !audioPlaylist.length) {
+        return;
+      }
+  
+      const autoControlButton = document.querySelector('.btn-article-reader');
+
+      function getAudioDuration(url) {
+        return new Promise((resolve, reject) => {
+
+          const audio = new Audio();
+
+          audio.src = url;
+          audio.preload = "metadata";
+
+          audio.addEventListener("loadedmetadata", () => {
+            resolve(audio.duration);
+          });
+
+          audio.addEventListener("error", () => {
+            reject(`Erro ao carregar: ${url}`);
+          });
+
+        });
+      }
+  
+      const preloadedAudios = audioPlaylist.map((url) => {
+        const audio = new Audio();
+        audio.src = url;
+        audio.preload = "auto";
+        return audio;
+      });
+  
+      let initialized = false
+      let currentIndex = 0;
+  
+      // Player principal
+      const player = new Audio();
+      player.preload = "auto";
+  
+      // Função para tocar áudio atual
+      function playCurrentAudio() {
+        // se terminou a playlist
+        if (currentIndex >= preloadedAudios.length) {
+          currentIndex = 0
+          initialized = false
+          return;
+        }
+  
+        const currentAudio = preloadedAudios[currentIndex];
+  
+        player.src = currentAudio.src;
+  
+        player.play().catch((error) => {
+          console.error("Erro ao reproduzir áudio:", error);
+        });
+      }
+  
+      player.addEventListener('play', () => {
+        autoControlButton.classList.remove('paused');
+      });
+  
+      player.addEventListener('pause', () => {
+        autoControlButton.classList.add('paused');
+      });
+  
+      // Quando terminar um áudio
+      player.addEventListener("ended", () => {
+        currentIndex++;
+  
+        if (currentIndex < preloadedAudios.length) {
+          playCurrentAudio();
+        }
+      });
+  
+      autoControlButton.addEventListener('click', () => {
+        if (!initialized) {
+          playCurrentAudio()
+          initialized = true
+          return
+        }
+  
+        if (player.paused) {
+          player.play()
+        } else {
+          player.pause()
+        }
+      });
+
+      ;(async function () {
+        try {
+          const durations = await Promise.all(
+            audioPlaylist.map(getAudioDuration)
+          );
+  
+          const totalSeconds = durations.reduce((sum, sec) => sum + sec, 0);
+  
+          const totalMinutes = Math.floor(totalSeconds / 60);
+          const remainingSeconds = Math.floor(totalSeconds % 60);
+  
+  
+          document.querySelector('.audio-duration').innerHTML = `${totalMinutes}m ${remainingSeconds}s`;
+        } catch (error) {
+          console.error(error);
+        }
+      })()
+  
+      // Inicia automaticamente
+      // playCurrentAudio();
+  
+    });
+  </script>
+{% endif %}

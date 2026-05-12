@@ -2,7 +2,6 @@
 <html lang="pt-BR">
   <head>
     {% include head.html %}
-    <title>{{ page.title }} - {{ site.title }}</title>
   </head>
   <body>
     <main>
@@ -23,16 +22,17 @@
               </span>
               <p>{% include date.html date=page.date %}</p>
             </div>
-            <h2>{{ page.title }}</h2>
+            <h1>{{ page.title }}</h1>
             <p class="description">{{ page.description }}</p>
+            {% include article-reader.html %}
           </div>
         </div>
       </div>
 
       <div class="max-container">
-        <section id="single">
+        <article id="single">
           {{ content }}
-        </section>
+        </article>
       </div>
 
       <div class="mb-48">

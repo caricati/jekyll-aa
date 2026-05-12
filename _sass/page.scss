@@ -2,7 +2,7 @@
 
 #big-feature {
   position: relative;
-  padding: 4rem 0;
+  padding: 4rem 0 3rem;
 
   .banner-figure {
     position: absolute;
@@ -32,17 +32,17 @@
     }
   }
 
-  h2 {
+  h1, h2 {
     font-size: 4rem;
     line-height: 1;
   }
 
   .big-feature-legend {
     max-width: 600px;
+    padding-bottom: 2rem;
 
     p.description {
       color: rgba(255, 255, 255, 0.75);
-      margin-bottom: 2rem;
     }
   }
 
@@ -72,7 +72,7 @@
 
 
 #single {
-  margin-top: -4rem;
+  margin-top: -3rem;
   padding: 1.5rem;
   background-color: rgba(11, 11, 14, 0.75);
   backdrop-filter: blur(10px);
@@ -206,6 +206,93 @@
 
     h2 {
       font-size: 46px;
+    }
+  }
+}
+
+.btn-article-reader {
+  color: $color-text;
+  font-size: 0.875rem;
+  padding: 4px 40px 4px 12px;
+  border: 2px solid $color-accent;
+  appearance: none;
+  background: url('/assets/img/pause.svg') no-repeat center right transparent;
+  background-position: right 14px center;
+  backdrop-filter: blur(4px);
+  cursor: pointer;
+  align-items: center;
+  column-gap: 0.5rem;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 1rem;
+
+  .audio-control {
+    height: 28px;
+  }
+
+  .audio-duration {
+    padding-left: 0.75rem;
+    margin-left: 0.25rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  &.paused {
+    background-image: url('/assets/img/play.svg');
+    .audio-wave .bar {
+      animation-play-state: paused;
+    }
+  }
+
+  .audio-wave {
+    display: flex;
+  }
+
+  .audio-wave .bar {
+    fill: $color-title;
+    transform-origin: center bottom;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @for $i from 1 through 4 {
+    .bar#{$i} {
+      animation: pulse 0.7s infinite;
+      animation-delay: $i * .15s;
+    }
+  }
+
+  // .audio-wave .bar1 { 
+  //   animation-name: pulse;
+  //   animation-delay: 1 * .15s;
+  // }
+  // .audio-wave .bar2 { 
+  //   animation-name: pulse;
+  //   animation-delay: 1 * .15s;
+  // }
+  // .audio-wave .bar3 { 
+  //   animation-name: pulse;
+  //   animation-delay: 1 * .15s;
+  // }
+  // .audio-wave .bar4 {
+  //   animation-name: pulse;
+  //   animation-delay: 1 * .15s;
+  // }
+
+  @keyframes pulse {
+    0% {
+      transform: scaleY(1);
+      transform-origin: 50% 50%;
+    }
+    
+    50% {
+      transform: scaleY(.7);
+      transform-origin: 50% 50%;
+    }
+    
+    100% {
+      transform: scaleY(1);
+      transform-origin: 50% 50%;
     }
   }
 }

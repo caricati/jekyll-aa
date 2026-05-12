@@ -91,6 +91,7 @@ hr {
     font-family: $font-headlines;
     font-size: 1.125rem;
     transition: 250ms ease all;
+    margin-top: 1rem;
 
     &:hover {
       background-color: $color-accent;
