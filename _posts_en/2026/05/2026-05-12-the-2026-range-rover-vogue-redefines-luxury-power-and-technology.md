@@ -10,6 +10,8 @@ image: /uploads/26/05/o-range-rover-vogue-2026-redefine-luxo-potencia-e-tecnolog
 description: "A luxury SUV that combines impressive power, advanced technology, sophisticated design, and unmatched off-road capability. Discover details about the powertrain, performance, premium interior, and the key innovations of the new Range Rover generation."
 categories:
   - cars
+audios:
+  - /uploads/26/05/o-range-rover-vogue-2026-redefine-luxo-potencia-e-tecnologia/voice-en.mp3
 tags:
   - SUV
   - Range Rover Vogue 2026

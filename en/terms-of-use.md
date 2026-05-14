@@ -4,7 +4,6 @@ lang: en
 title: Terms of Use and Privacy
 ---
 
-**Terms of Use – Auto Adrenalina**  
 **Last updated:** May 2026
 
 ---
@@ -101,7 +100,6 @@ Any disputes related to the use of the website shall be resolved in the competen
 
 For questions, requests, or clarifications related to these Terms of Use, users may contact the website through the official communication channels provided.
 
-**Email:** contato@autoadrenalina.com
+**Email:** [autoadrenalina@proton.me](mailto:autoadrenalina@proton.me)
 
 Responses will be provided within reasonable timeframes, depending on the nature of the request.
----

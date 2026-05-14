@@ -47,21 +47,27 @@
 
   {% if page.lang == 'pt' %}
 
-    <span class="active">PT</span>
+    <span class="active">
+      <img src="{{ '/assets/img/bra-flag.svg' | relative_url }}" alt="Português flag" />
+      Português
+    </span>
 
     {% if opposite_post %}
       <a href="{{ opposite_post.url | replace:'index.html','' | relative_url }}">
-        EN
+        <img src="{{ '/assets/img/usa-flag.svg' | relative_url }}" alt="English Flag" />
+        English
       </a>
 
     {% elsif opposite_page %}
       <a href="{{ opposite_page.url | replace:'index.html',''  | relative_url }}">
-        EN
+        <img src="{{ '/assets/img/usa-flag.svg' | relative_url }}" alt="English Flag" />
+        English
       </a>
 
     {% else %}
       <a href="/en/">
-        EN
+        <img src="{{ '/assets/img/usa-flag.svg' | relative_url }}" alt="English Flag" />
+        English
       </a>
     {% endif %}
 
@@ -69,21 +75,27 @@
 
     {% if opposite_post %}
       <a href="{{ opposite_post.url | replace:'index.html',''  | relative_url }}">
-        PT
+        <img src="{{ '/assets/img/bra-flag.svg' | relative_url }}" alt="Português flag" />
+        Português
       </a>
 
     {% elsif opposite_page %}
       <a href="{{ opposite_page.url | replace:'index.html',''  | relative_url }}">
-        PT
+        <img src="{{ '/assets/img/bra-flag.svg' | relative_url }}" alt="Português flag" />
+        Português
       </a>
 
     {% else %}
       <a href="/">
-        PT
+        <img src="{{ '/assets/img/bra-flag.svg' | relative_url }}" alt="Português flag" />
+        Português
       </a>
     {% endif %}
 
-    <span class="active">EN</span>
+    <span class="active">
+      <img src="{{ '/assets/img/usa-flag.svg' | relative_url }}" alt="English Flag" />
+      English
+    </span>
 
   {% endif %}
 

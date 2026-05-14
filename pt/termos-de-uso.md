@@ -5,7 +5,6 @@ title: Termos de uso e privacidade
 permalink: /termos-de-uso/
 ---
 
-**Termos de Uso – Auto Adrenalina**
 **Última atualização:** Maio de 2026
 
 ---
@@ -102,6 +101,6 @@ Quaisquer disputas relacionadas ao uso do site deverão ser resolvidas no foro c
 
 Para dúvidas, solicitações ou esclarecimentos relacionados a estes Termos de Uso, o usuário pode entrar em contato por meio dos canais oficiais disponibilizados pelo site.
 
-**E-mail:** [contato@autoadrenalina.com](mailto:contato@autoadrenalina.com)
+**E-mail:** [autoadrenalina@proton.me](mailto:autoadrenalina@proton.me)
 
 O atendimento será realizado dentro de prazos razoáveis, conforme a natureza da solicitação.
