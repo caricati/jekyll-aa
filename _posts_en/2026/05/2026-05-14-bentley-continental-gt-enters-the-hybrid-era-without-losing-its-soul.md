@@ -51,13 +51,15 @@ The seats received new ergonomic adjustments and advanced climate control, massa
 
 Bentley has also significantly elevated the technological level of the cabin. The Continental GT 2026 features new semi-autonomous driving assistance systems, next-generation adaptive suspension, four-wheel steering, active roll control, and extremely advanced torque vectoring.
 
+![Bentley Continental GT 2026 Back](/uploads/26/05/bentley-continental-gt-enters-the-hybrid-era-without-losing-its-soul/inter-bentley-continental-gt.jpg){:class="auto-width"}
+
 The result is impressive. Despite the considerable weight typical of a luxury hybrid grand tourer, the car delivers surprising agility in high-speed corners while maintaining the absolute comfort expected from a Bentley. The intelligent air suspension can transform the vehicle’s behavior within seconds, switching from a comfortable long-distance coupe into an extremely aggressive machine during spirited driving.
 
 Another detail that stands out is the level of customization offered by the Mulliner division. Customers can configure virtually every aspect of the vehicle: exclusive colors, special stitching, unique inserts, rare materials, and fully personalized combinations. This makes many Continental GT examples true one-of-a-kind creations.
 
-![Bentley Continental GT 2026 Back](/uploads/26/05/bentley-continental-gt-enters-the-hybrid-era-without-losing-its-soul/inter-bentley-continental-gt.jpg){:class="auto-width"}
-
 The 2026 lineup also marks an important shift in Bentley’s strategy. Instead of rapidly transitioning to fully electric vehicles, the British brand has chosen to heavily invest in high-performance hybrid systems, understanding that many customers still desire emotional combustion engines combined with the advantages of electrification.
+
+![Bentley Continental GT 2026 Back](/uploads/26/05/bentley-continental-gt-enters-the-hybrid-era-without-losing-its-soul/interback-bentley-continental-gt.jpg){:class="auto-width"}
 
 This balance may be precisely the greatest achievement of the new Continental GT. It preserves the emotional, elegant, and powerful character that has always defined the model, while adding energy efficiency, modern technology, and even more refined driving dynamics.
 

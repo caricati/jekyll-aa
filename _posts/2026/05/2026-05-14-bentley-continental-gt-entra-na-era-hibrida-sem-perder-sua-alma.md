@@ -51,13 +51,15 @@ Os bancos receberam novos ajustes ergonômicos e sistemas avançados de climatiz
 
 A Bentley também elevou significativamente o nível tecnológico da cabine. O Continental GT 2026 conta com novos sistemas de assistência semiautônoma, suspensão adaptativa de última geração, direção nas quatro rodas, controle ativo de rolagem e vetorização de torque extremamente avançada.
 
+![Bentley Continental GT 2026 Back](/uploads/26/05/bentley-continental-gt-enters-the-hybrid-era-without-losing-its-soul/inter-bentley-continental-gt.jpg){:class="auto-width"}
+
 O resultado é impressionante. Apesar do peso elevado típico de um grand tourer híbrido de luxo, o carro transmite agilidade surpreendente em curvas rápidas, mantendo ao mesmo tempo o conforto absoluto esperado de um Bentley. A suspensão pneumática inteligente consegue transformar o comportamento do veículo em questão de segundos, alternando entre um cupê confortável para viagens e uma máquina extremamente agressiva em condução esportiva.
 
 Outro detalhe que chama atenção é o nível de personalização oferecido pela divisão Mulliner. Clientes podem configurar praticamente qualquer aspecto do veículo: cores exclusivas, costuras especiais, inserções únicas, materiais raros e combinações totalmente personalizadas. Isso faz com que muitos exemplares do Continental GT sejam verdadeiras peças únicas.
 
-![Bentley Continental GT 2026 Back](/uploads/26/05/bentley-continental-gt-enters-the-hybrid-era-without-losing-its-soul/inter-bentley-continental-gt.jpg){:class="auto-width"}
-
 A linha 2026 também marca uma mudança importante na estratégia da Bentley. Em vez de migrar rapidamente para veículos totalmente elétricos, a marca britânica decidiu apostar fortemente em sistemas híbridos de alta performance, entendendo que muitos clientes ainda desejam motores a combustão emocionantes aliados às vantagens da eletrificação.
+
+![Bentley Continental GT 2026 Back](/uploads/26/05/bentley-continental-gt-enters-the-hybrid-era-without-losing-its-soul/interback-bentley-continental-gt.jpg){:class="auto-width"}
 
 Esse equilíbrio talvez seja justamente o maior mérito do novo Continental GT. Ele preserva o caráter emocional, elegante e poderoso que sempre definiu o modelo, mas adiciona eficiência energética, tecnologia moderna e um comportamento dinâmico ainda mais refinado.
 
