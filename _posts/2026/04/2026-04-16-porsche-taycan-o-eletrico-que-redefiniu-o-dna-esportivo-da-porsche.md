@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: pt
+ref: porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche
 title: "Porsche Taycan: o elétrico que redefiniu o DNA esportivo da Porsche"
 date: 2026-04-16 15:00:00 -0300
 banner: /uploads/26/04/porsche-taycan-o-eletrico-que-redefiniu-o-dna-esportivo-da-porsche/porsche-taycan-cover2.jpg

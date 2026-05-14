@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: pt
+ref: mercedes-amg-gt-impressiona-o-mundo-com-mais-de-1300-cv
 title: "Mercedes-AMG GT impressiona o mundo com mais de 1.300 cv"
 date: 2026-04-28 09:28:43 -0300
 banner: /uploads/26/04/mercedes-amg-gt-impressiona-o-mundo-com-mais-de-1300-cv/cover-mercedes-amg-gt-4-portas-ev.jpg

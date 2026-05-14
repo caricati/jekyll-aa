@@ -1,12 +1,27 @@
+{% if page.lang == 'pt' %}
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+  {% assign cars_count = posts | where_exp: "post", "post.categories contains 'carros'" | size %}
+  {% assign motorcycles_count = posts | where_exp: "post", "post.categories contains 'motos'" | size %}
+  {% assign electrics_count = posts | where_exp: "post", "post.categories contains 'eletricos'" | size %}
+  {% assign customs_count = posts | where_exp: "post", "post.categories contains 'customizacoes'" | size %}
+{% else %}
+  {% assign posts = site.posts_en | sort: 'date' | reverse %}
+  {% assign cars_count = posts | where_exp: "post", "post.categories contains 'cars'" | size %}
+  {% assign motorcycles_count = posts | where_exp: "post", "post.categories contains 'motorcycles'" | size %}
+  {% assign electrics_count = posts | where_exp: "post", "post.categories contains 'electrics'" | size %}
+  {% assign customs_count = posts | where_exp: "post", "post.categories contains 'customs'" | size %}
+{% endif %}
+{% assign i18n = site.data[page.lang] %}
+
 <!doctype html>
-<html lang="pt-br">
+<html lang="{{ page.lang }}">
   <head>
     {% include head.html %}
   </head>
   <body>
     <main>
       {% include header.html %}
-      {% assign featured = site.posts.first %}
+      {% assign featured = posts.first %}
       <div id="big-feature">
         <figure class="banner-figure">
           <img
@@ -19,28 +34,31 @@
           <div class="big-feature-legend">
             <div class="feature-legend-info">
               <span class="tag">
-                {% include get-category.html category=featured.categories.first %}
+                {% assign featured_category = featured.categories[0] %}
+                {% include get-category.html category=featured_category %}
               </span>
             </div>
             <h2>{{ featured.title }}</h2>
             <p class="description">{{ featured.description }}</p>
-            <a href="{{ featured.url }}" class="btn feature-primary">Leia mais</a>
+            <a href="{{ featured.url }}" class="btn feature-primary">{{ i18n.read_more }}</a>
           </div>
         </div>
       </div>
       <section class="list-section mb-48">
         <div class="max-container">
           <h2 class="heading-bars">
-            últimas novidades
+            {{ i18n.last_news }}
           </h2>
+          {% assign posts = posts %}
           <div class="grid">
-            {% for post in site.posts limit:4 offset:1 %}
+            {% for post in posts limit:4 offset:1 %}
             <article>
               <figure class="photo-figure">
                 <a href="{{ post.url }}">
                   <img src="{{ post.thumb }}" alt="{{ post.title }}" />
                   <div class="category">
-                    {% include get-category.html category=post.categories.first %}
+                    {% assign post_category = post.categories[0] %}
+                    {% include get-category.html category=post_category %}
                   </div>
                 </a>
               </figure>
@@ -60,29 +78,34 @@
       <section class="list-section mb-64">
         <div class="max-container">
           <h2 class="heading-bars">
-            explore categorias
+            {{ i18n.explore_categories }}
           </h2>
           <div class="grid">
-            <a class="category-card" href="{{ "/carros" | absolute_url }}">
-              <img class="category-icon" src="./assets/img/cat-car.svg" alt="Carros" />
-              <h3>Carros</h3>
-              <p>{{ site.categories.carros.size | default: 0 }} publicações</p>
+
+            <a class="category-card" href="{{ i18n.cars_url | relative_url }}">
+              <img class="category-icon" src="/assets/img/cat-car.svg" alt="{{ i18n.cars }}" />
+              <h3>{{ i18n.cars }}</h3>
+              <p>{{ cars_count }} publicações</p>
             </a>
-            <a class="category-card" href="{{ "/motos" | absolute_url }}">
-              <img class="category-icon" src="./assets/img/cat-moto.svg" alt="Motos" />
-              <h3>Motos</h3>
-              <p>{{ site.categories.motos.size | default: 0 }} publicações</p>
+
+            <a class="category-card" href="{{ i18n.motorcycles_url | relative_url }}">
+              <img class="category-icon" src="/assets/img/cat-moto.svg" alt="{{ i18n.motorcycles }}" />
+              <h3>{{ i18n.motorcycles }}</h3>
+              <p>{{ motorcycles_count }} publicações</p>
             </a>
-            <a class="category-card" href="{{ "/eletricos" | absolute_url }}">
-              <img class="category-icon" src="./assets/img/cat-eletric.svg" alt="Motos" />
-              <h3>Elétricos</h3>
-              <p>{{ site.categories.eletricos.size | default: 0 }} publicações</p>
+
+            <a class="category-card" href="{{ i18n.electrics_url | relative_url }}">
+              <img class="category-icon" src="/assets/img/cat-eletric.svg" alt="{{ i18n.electrics }}" />
+              <h3>{{ i18n.electrics }}</h3>
+              <p>{{ electrics_count }} publicações</p>
             </a>
-            <a class="category-card" href="{{ "/customizacoes" | absolute_url }}">
-              <img class="category-icon" src="./assets/img/cat-custom.svg" alt="Motos" />
-              <h3>Customizações</h3>
-              <p>{{ site.categories.customizacoes.size | default: 0 }} publicações</p>
+
+            <a class="category-card" href="{{ i18n.customs_url | relative_url }}">
+              <img class="category-icon" src="/assets/img/cat-custom.svg" alt="{{ i18n.customs }}" />
+              <h3>{{ i18n.customs }}</h3>
+              <p>{{ customs_count }} publicações</p>
             </a>
+
           </div>
         </div>
       </section>
@@ -90,7 +113,8 @@
       <section class="list-section mb-48">
         <div class="max-container">
           <div class="list">
-            {% for post in site.posts limit:10 offset:5 %}
+            {% for post in posts limit:10 offset:5 %}
+            {% assign post_category = post.categories[0] %}
             <article>
               <figure class="photo-figure">
                 <a href="{{ post.url }}">
@@ -100,8 +124,8 @@
               <div>
                 <div class="info">
                   <p>
-                    <a href="{{ post.categories.first | absolute_url }}">
-                      {% include get-category.html category=post.categories.first %}
+                    <a href="{{ post_category | absolute_url }}">
+                      {% include get-category.html category=post_category %}
                     </a>
                   </p>
                   {% include date.html date=post.date %}

@@ -1,6 +1,8 @@
 ---
 layout: page
+lang: pt
 title: Sobre Nós – Auto Adrenalina
+permalink: /sobre-nos/
 ---
 
 ### Nossa Essência

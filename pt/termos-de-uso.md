@@ -1,6 +1,8 @@
 ---
 layout: page
+lang: pt
 title: Termos de uso e privacidade
+permalink: /termos-de-uso/
 ---
 
 **Termos de Uso – Auto Adrenalina**

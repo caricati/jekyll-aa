@@ -1,4 +1,4 @@
-
+{% assign i18n = site.data[page.lang] %}
 {% if page.audios %}
   <button type="button" class="btn-article-reader paused">
     <svg
@@ -14,7 +14,7 @@
       <rect class="bar bar3" x="14" y="4"  width="3" height="16" rx="2"/>
       <rect class="bar bar4" x="20" y="9"  width="3" height="6" rx="2"/>
     </svg>
-    Ouvir o artigo
+    {{ i18n.listen_article }}
     <span class="audio-duration">-- --</span>
   </div>
   <script>

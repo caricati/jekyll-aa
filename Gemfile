@@ -4,11 +4,10 @@ ruby ">= 3.1"
 
 gem "jekyll", "~> 4.3.1"
 gem "liquid", ">= 4.0.4"
-gem "jekyll-sitemap"
-gem "jekyll-seo-tag"
-gem "jekyll-paginate-v2"
+gem "jekyll-sitemap", "~> 1.4.0"
+gem "jekyll-seo-tag", "~> 2.8.0"
+gem "jekyll-paginate-v2", "~> 3.0.0"
 gem "minima", "~> 2.5"
-gem "jekyll-multiple-languages-plugin"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"

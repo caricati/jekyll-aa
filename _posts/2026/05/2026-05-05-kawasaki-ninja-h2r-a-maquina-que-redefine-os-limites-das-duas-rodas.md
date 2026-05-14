@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: pt
+ref: kawasaki-ninja-h2r-a-maquina-que-redefine-os-limites-das-duas-rodas
 title: "Kawasaki Ninja H2R a máquina que redefine os limites das duas rodas"
 date: 2026-05-05 12:28:00 -0300
 banner: /uploads/26/05/kawasaki-ninja-h2r-a-maquina-que-redefine-os-limites-das-duas-rodas/cover-kawasaki-ninja-h2r.jpg

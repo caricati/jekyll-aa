@@ -184,6 +184,7 @@
 #page-not-found {
   background: url(../img/404-bg.jpg) no-repeat top left;
   background-size: 100vw auto;
+  min-height: 700px;
 
   .error-message {
     max-width: 500px;

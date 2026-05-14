@@ -1,0 +1,26 @@
+read_more: "Read more"
+related_news: "Related news"
+listen_article: "Listen to the article"
+featured: "Featured"
+about_us: 'About us'
+contact: 'Contact'
+use_terms: 'Terms of use'
+copy: '2026 Auto Adrenalina. All rights reserved.'
+cars: 'Cars'
+motorcycles: 'Motorcycles'
+electrics: 'Electrics'
+customs: 'Customs'
+last_news: 'Last news'
+explore_categories: 'Explore categories'
+shortcuts: 'Shortcuts'
+most_commented: 'Most commented'
+posts_label: "posts"
+footer_desc: 'Your automotive magazine with news and reviews about cars, electric vehicles, motorcycles, customizations, and much more.'
+
+home_url: "/en/"
+cars_url: "/en/cars/"
+motorcycles_url: "/en/motorcycles/"
+electrics_url: "/en/electrics/"
+customs_url: "/en/customs/"
+about_url: "/en/about-us/"
+terms_url: "/en/terms-of-use/"

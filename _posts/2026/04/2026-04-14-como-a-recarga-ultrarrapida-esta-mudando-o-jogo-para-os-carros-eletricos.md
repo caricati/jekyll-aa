@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: pt
+ref: como-a-recarga-ultrarrapida-esta-mudando-o-jogo-para-os-carros-eletricos
 title: "Como a recarga ultrarrápida está mudando o jogo para os carros elétricos"
 date: 2026-04-14 15:00:00 -0300
 trending: true

@@ -1,86 +1,62 @@
+{% assign i18n = site.data[page.lang] %}
 <footer id="footer">
   <div class="max-container footer-content">
     <div class="footer-info">
       <a href="{{ site.url }}" class="logo">
         <img src="{{ "/assets/img/auto-adrenalina.svg" | absolute_url }}" alt="Auto Pulse" />
       </a>
-      <p class="site-description">Sua revista automotiva com notícias, análises sobre carros, veículos elétricos, motos, customizações e muito mais.</p>
+      <p class="site-description">{{ i18n.footer_desc }}</p>
     </div>
     <div class="footer-links">
-      <h2>Atalhos</h2>
+      <h2>{{ i18n.shortcuts }}</h2>
       <ul>
         <li>
-          <a href="{{ "/carros" | absolute_url }}">
-            Carros
+          <a href="{{ i18n.cars_url | absolute_url }}">
+            {{ i18n.cars }}
           </a>
         </li>
         <li>
-          <a href="{{ "/motos" | absolute_url }}">
-            Motos
+          <a href="{{ i18n.motorcycles_url | absolute_url }}">
+            {{ i18n.motorcycles }}
           </a>
         </li>
         <li>
-          <a href="{{ "/eletricos" | absolute_url }}">
-            Elétricos
+          <a href="{{ i18n.electrics_url | absolute_url }}">
+            {{ i18n.electrics }}
           </a>
         </li>
         <li>
-          <a href="{{ "/customizacoes" | absolute_url }}">
-            Customizações
+          <a href="{{ i18n.customs_url | absolute_url }}">
+            {{ i18n.customs }}
           </a>
         </li>
       </ul>
       <hr />
       <ul>
         <li>
-          <a href="{{ "/sobre-nos" | absolute_url }}">
-            Sobre nós
+          <a href="{{ i18n.about_url | absolute_url }}">
+            {{ i18n.about_us }}
           </a>
         </li>
         <li>
           <a href="#">
-            Entre em contato
+            {{ i18n.contact }}
           </a>
         </li>
         <li>
-          <a href="{{ "/termos-de-uso" | absolute_url }}">
-            Termos de uso
+          <a href="{{ i18n.terms_url | absolute_url }}">
+            {{ i18n.use_terms }}
           </a>
         </li>
       </ul>
     </div>
     <div class="footer-tags">
-      <h2>Mais comentados</h2>
-      <ul>
-        {% assign tags_array = "" | split: "" %}
-
-        {% for tag in site.tags %}
-          {% assign name = tag[0] %}
-          {% assign count = tag[1].size %}
-
-          {% assign item = count | append: "|" | append: name %}
-          {% assign tags_array = tags_array | push: item %}
-        {% endfor %}
-
-        {% assign sorted = tags_array | sort | reverse %}
-
-        {% for item in sorted limit: 10 %}
-          {% assign parts = item | split: "|" %}
-          {% assign count = parts[0] %}
-          {% assign name = parts[1] %}
-          {% assign slug = name | slugify: "latin" %}
-
-          <li>
-            <a href="{{ "/tag/" | append: slug | append: "/" | absolute_url }}" title="com {{ count }} artigos">
-              {{ name }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
+      <h2>{{ i18n.most_commented }}</h2>
+      {% include tag-list.html %}
     </div>
   </div>
   <div class="max-container footer-copy">
-    <p>© 2026 Auto Adrenalina. Todos os direitos reservados.</p>
+    <p>{{ i18n.copy }}</p>
   </div>
   <script src="{{ "/assets/js/main.js" | absolute_url }}"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5R6G9EE3Y"></script>

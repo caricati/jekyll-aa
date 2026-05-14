@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: pt
+ref: o-range-rover-vogue-2026-redefine-luxo-potencia-e-tecnologia
 title: "O Range Rover Vogue 2026 redefine luxo, potência e tecnologia"
 date: 2026-05-12 11:50:00 -0300
 banner: /uploads/26/05/o-range-rover-vogue-2026-redefine-luxo-potencia-e-tecnologia/cover-range-rover-vogue-2026.jpg

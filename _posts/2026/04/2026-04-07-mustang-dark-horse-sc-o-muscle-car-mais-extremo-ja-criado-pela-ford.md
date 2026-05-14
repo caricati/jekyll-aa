@@ -1,4 +1,6 @@
 ---
+lang: pt
+ref: mustang-dark-horse-sc-o-muscle-car-mais-extremo-ja-criado-pela-ford
 banner: /uploads/26/04/mustang-dark-horse-sc-o-muscle-car-mais-extremo-ja-criado-pela-ford/banner.jpg
 thumb: /uploads/26/04/mustang-dark-horse-sc-o-muscle-car-mais-extremo-ja-criado-pela-ford/mustang-sc-thumb.jpg
 image: /uploads/26/04/mustang-dark-horse-sc-o-muscle-car-mais-extremo-ja-criado-pela-ford/mustang-sc-thumb.jpg

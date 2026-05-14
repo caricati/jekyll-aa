@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: pt
+ref: cb1000-hornet-a-naked-esportiva-que-promete-dominar-as-ruas
 title: "CB1000 Hornet 2026 a naked esportiva que promete dominar as ruas"
 date: 2026-04-09 09:57:11 -0300
 banner: /uploads/26/04/cb1000-hornet-a-naked-esportiva-que-promete-dominar-as-ruas/banner-hornet1000.jpg

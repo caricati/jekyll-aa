@@ -89,7 +89,7 @@
 
   .footer-tags ul li {
 
-    a {
+    span {
       line-height: 2.25;
       color: $color-text;
       padding: 2px 8px;
@@ -102,11 +102,11 @@
         content: '#'
       }
 
-      &:hover {
-        background-color: $color-accent;
-        border-color: $color-accent;
-        color: $color-body;
-      }
+      // &:hover {
+      //   background-color: $color-accent;
+      //   border-color: $color-accent;
+      //   color: $color-body;
+      // }
     }
   }
 

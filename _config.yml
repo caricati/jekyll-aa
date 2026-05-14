@@ -1,4 +1,5 @@
-locale: pt_BR
+languages: ["pt", "en"]
+default_lang: "pt"
 
 title: Auto Adrenalina
 url: "https://autoadrenalina.com"
@@ -9,6 +10,7 @@ description: >-
 email: thales.caricati@gmail.com
 
 permalink: /:categories/:title/
+markdown_ext: "md"
 
 plugins:
   - jekyll-feed
@@ -18,6 +20,14 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
+
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/
+  posts_en:
+    output: true
+    permalink: /en/:categories/:title/
 
 pagination:
   enabled: true

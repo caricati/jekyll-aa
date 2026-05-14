@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: pt
+ref: como-o-japao-conquistou-o-mundo-automotivo
 title: "Como o Japão conquistou o mundo automotivo"
 date: 2026-04-02 10:00:00 -0300
 banner: /uploads/26/04/como-o-japao-conquistou-o-mundo-automotivo/banner-jdm.jpg

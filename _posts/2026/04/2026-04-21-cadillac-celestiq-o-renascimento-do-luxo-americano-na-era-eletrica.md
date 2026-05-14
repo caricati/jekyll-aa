@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: pt
+ref: cadillac-celestiq-o-renascimento-do-luxo-americano-na-era-eletrica
 title: "Cadillac Celestiq: O Renascimento do Luxo Americano na Era Elétrica"
 date: 2026-04-21 15:32:00 -0300
 banner: /uploads/26/04/cadillac-celestiq-o-renascimento-do-luxo-americano-na-era-eletrica/cover-cadillac-celestiq.jpg

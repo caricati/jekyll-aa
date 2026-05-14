@@ -1,18 +1,53 @@
 ---
 permalink: /404.html
 layout: blank
+ref: 404-page
+lang: pt
 ---
+
+{% assign lang = 'pt' %}
+
+{% if page.url contains '/en/' %}
+  {% assign lang = 'en' %}
+{% endif %}
+
+{% assign i18n = site.data[lang] %}
 
 <div id="page-not-found">
   <div class="max-container">
     <div class="error-message">
       <h1>4<span>0</span>4</h1>
-      <h2 class="subtt">Página não encontrada</h2>
-      <p>
-        A página que você está procurando não existe ou foi movida para outro
-        lugar. Mas não se preocupe, temos um conteúdo acelerando por aqui.
+      <h2 id="title" class="subtt">Página não encontrada</h2>
+      <p id="description">
+        A página que você está procurando não existe ou foi movida para outro lugar. Mas não se preocupe, temos um conteúdo acelerando por aqui.
       </p>
+      <a href="/" id="home-link" class="btn feature-primary">Voltar para home</a>
     </div>
   </div>
-  {% include new-posts.html title="Talvez você procure por algo assim" %}
 </div>
+
+<script>
+
+  const path = window.location.pathname;
+
+  const isEnglish = path.startsWith('/en/');
+
+  if (isEnglish) {
+
+    document.documentElement.lang = 'en';
+
+    document.getElementById('title').innerText =
+      'Page not found';
+
+    document.getElementById('description').innerText =
+      'The page you tried to access does not exist or has been removed.';
+
+    document.getElementById('home-link').innerText =
+      'Back to homepage';
+
+    document.getElementById('home-link').href =
+      '/en/';
+
+  }
+
+</script>

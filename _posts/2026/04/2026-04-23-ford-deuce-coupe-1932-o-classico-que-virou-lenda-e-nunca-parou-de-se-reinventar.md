@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: pt
+ref: ford-deuce-coupe-1932-o-classico-que-virou-lenda-e-nunca-parou-de-se-reinventar
 title: "Ford Deuce Coupe 1932: o clássico que virou lenda e nunca parou de se reinventar"
 date: 2026-04-23 11:29:43 -0300
 banner: /uploads/26/04/ford-deuce-coupe-1932-o-classico-que-virou-lenda-e-nunca-parou-de-se-reinventar/cover-ford-deuce-coupe-1932.jpg

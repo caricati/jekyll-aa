@@ -1,0 +1,90 @@
+{% assign opposite_post = nil %}
+{% assign opposite_page = nil %}
+
+{% if page.ref %}
+
+  {% if page.lang == 'pt' %}
+
+    {% for post in site.posts_en %}
+      {% if post.ref == page.ref %}
+        {% assign opposite_post = post %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if opposite_post == nil %}
+      {% for p in site.pages %}
+        {% if p.ref == page.ref and p.lang == 'en' %}
+          {% assign opposite_page = p %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+  {% else %}
+
+    {% for post in site.posts %}
+      {% if post.ref == page.ref %}
+        {% assign opposite_post = post %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if opposite_post == nil %}
+      {% for p in site.pages %}
+        {% if p.ref == page.ref and p.lang == 'pt' %}
+          {% assign opposite_page = p %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+  {% endif %}
+
+{% endif %}
+
+<div class="language-switcher">
+
+  {% if page.lang == 'pt' %}
+
+    <span class="active">PT</span>
+
+    {% if opposite_post %}
+      <a href="{{ opposite_post.url | replace:'index.html','' | relative_url }}">
+        EN
+      </a>
+
+    {% elsif opposite_page %}
+      <a href="{{ opposite_page.url | replace:'index.html',''  | relative_url }}">
+        EN
+      </a>
+
+    {% else %}
+      <a href="/en/">
+        EN
+      </a>
+    {% endif %}
+
+  {% else %}
+
+    {% if opposite_post %}
+      <a href="{{ opposite_post.url | replace:'index.html',''  | relative_url }}">
+        PT
+      </a>
+
+    {% elsif opposite_page %}
+      <a href="{{ opposite_page.url | replace:'index.html',''  | relative_url }}">
+        PT
+      </a>
+
+    {% else %}
+      <a href="/">
+        PT
+      </a>
+    {% endif %}
+
+    <span class="active">EN</span>
+
+  {% endif %}
+
+</div>

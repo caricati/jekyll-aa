@@ -1,0 +1,54 @@
+<ul>
+
+  {% if page.lang == 'pt' %}
+    {% assign all_posts = site.posts %}
+    {% assign tag_base = '/tag/' %}
+  {% else %}
+    {% assign all_posts = site.posts_en %}
+    {% assign tag_base = '/en/tag/' %}
+  {% endif %}
+
+  {% assign tags_string = '' %}
+
+  {% for post in all_posts %}
+
+    {% for tag in post.tags %}
+
+      {% unless tags_string contains tag %}
+
+        {% assign count = 0 %}
+
+        {% for p in all_posts %}
+          {% if p.tags contains tag %}
+            {% assign count = count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+
+        {% assign item = count | append: '|' | append: tag %}
+        {% assign tags_string = tags_string | append: item | append: ',' %}
+
+      {% endunless %}
+
+    {% endfor %}
+
+  {% endfor %}
+
+  {% assign tags_array = tags_string | split: ',' %}
+  {% assign sorted = tags_array | sort | reverse %}
+
+  {% for item in sorted limit:10 %}
+
+    {% if item != '' %}
+
+      {% assign parts = item | split: '|' %}
+      {% assign count = parts[0] %}
+      {% assign name = parts[1] %}
+      {% assign slug = name | slugify: 'latin' %}
+
+      <li><span>{{ name }}</span></li>
+
+    {% endif %}
+
+  {% endfor %}
+
+</ul>

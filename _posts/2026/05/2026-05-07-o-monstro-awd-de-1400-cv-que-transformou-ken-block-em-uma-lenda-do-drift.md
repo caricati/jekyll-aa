@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: pt
+ref: o-monstro-awd-de-1400-cv-que-transformou-ken-block-em-uma-lenda-do-drift
 title: "O Monstro AWD de 1.400 CV que Transformou Ken Block em uma Lenda do Drift"
 date: 2026-05-07 12:32:00 -0300
 banner: /uploads/26/05/o-monstro-awd-de-1400-cv-que-transformou-ken-block-em-uma-lenda-do-drift/cover-mustang-hoonicorn.jpg

@@ -1,5 +1,10 @@
+{% if page.lang == 'pt' %}
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+{% else %}
+  {% assign posts = site.posts_en | sort: 'date' | reverse %}
+{% endif %}
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.lang }}">
   <head>
     {% include head.html %}
   </head>

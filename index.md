@@ -1,6 +1,7 @@
 ---
 layout: home
 image: /assets/img/og/512x512.png
+lang: pt
 tags:
   - carros
   - motos

@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: pt
+ref: ducati-streetfighter-v4-lamborghini-a-fusao-entre-dois-mundos-extremos
 title: "Ducati Streetfighter V4 Lamborghini: a fusão entre dois mundos extremos"
 date: 2026-04-30 14:28:00 -0300
 banner: /uploads/26/04/ducati-streetfighter-v4-lamborghini-a-fusao-entre-dois-mundos-extremos/cover-ducati-streetfighter-v4.jpg
