@@ -11,19 +11,17 @@ description: The CB1000 Hornet arrives with more than 150 horsepower and stands 
 categories:
   - motorcycles
 tags:
-  - cb
-  - cb1000
-  - honda
+  - CB
+  - CB1000
+  - Honda
   - CB1000 Hornet
   - Hornet 1000
   - Fireblade
   - Honda CB1000 Hornet 2026
   - CB1000 Hornet specifications
   - Honda 1000cc naked bike
-  - high-displacement sport motorcycle
+  - High-displacement sport motorcycle
   - Fireblade engine Hornet
-  - CB1000 Hornet 152 hp
-  - Z900 MT-10 GSX-S1000 competitors
   - Honda Hornet Brazil launch
 ---
 

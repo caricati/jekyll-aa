@@ -31,7 +31,14 @@
 
       <div class="max-container">
         <article id="single">
-          {{ content }}
+          <div class="article-text-box">
+            {{ content }}
+          </div>
+          <footer class="single-footer">
+            <ul class="single-tags-list">
+              {% for item in page.tags %}<li>{{ item }}</li>{% endfor %}
+            </ul>
+          </footer>
         </article>
       </div>
 

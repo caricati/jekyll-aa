@@ -11,15 +11,16 @@ description: "Ducati Streetfighter V4 Lamborghini: supernaked exclusiva com moto
 categories:
   - motos
 tags:
-  - moto esportiva
-  - moto naked
-  - supernaked
+  - Moto esportiva
+  - Moto naked
+  - Supernaked
   - Ducati
+  - Streetfighter V4
   - Ducati Streetfighter V4 Lamborghini
   - Ducati V4 Lamborghini
-  - moto Ducati exclusiva
-  - supernaked Ducati
-  - moto Lamborghini
+  - Moto Ducati exclusiva
+  - Supernaked Ducati
+  - Moto Lamborghini
   - Ducati 208 cv
 ---
 

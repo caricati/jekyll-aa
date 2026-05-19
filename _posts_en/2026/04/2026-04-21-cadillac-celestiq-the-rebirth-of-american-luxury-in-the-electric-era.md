@@ -12,15 +12,17 @@ categories:
   - electrics
   - cars
 tags:
-  - electric cars
+  - Electric cars
+  - Cadillac
+  - Celestiq
   - Cadillac Celestiq
-  - electric Cadillac
-  - luxury car
-  - premium electric sedan
-  - exclusive car
-  - automotive technology
-  - high-performance electric car
-  - modern automotive design
+  - Electric Cadillac
+  - Luxury car
+  - Premium electric sedan
+  - Exclusive car
+  - Automotive technology
+  - High-performance electric car
+  - Modern automotive design
 ---
 
 The Cadillac Celestiq represents a profound transformation in Cadillac’s identity, positioning the American brand within the exclusive world of bespoke ultra-luxury automobiles. More than just a car, it is a handcrafted masterpiece on wheels, designed to compete with European icons and redefine the concept of exclusivity in the electric era.

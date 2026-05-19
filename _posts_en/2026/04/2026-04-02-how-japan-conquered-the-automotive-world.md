@@ -11,9 +11,9 @@ description: Discover the history of JDM cars, the Japanese automotive movement 
 categories:
   - cars
 tags:
-  - jdm
-  - japanese cars
-  - history
+  - JDM
+  - Japanese cars
+  - History
   - Mitsubishi Lancer Evolution
   - Subaru Impreza WRX STI
   - Toyota AE86 Trueno

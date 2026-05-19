@@ -11,16 +11,17 @@ description: "Kawasaki Ninja H2R: discover the world’s most extreme motorcycle
 categories:
   - motorcycles
 tags:
-  - sport motorcycle
-  - kawasaki
-  - kawasaki h2r
-  - ninja h2r
-  - supercharged motorcycle
-  - track motorcycle
-  - kawasaki superbike
+  - Sport motorcycle
+  - Kawasaki
+  - Kawasaki H2R
+  - Ninja H2R
+  - H2R
+  - Supercharged motorcycle
+  - Track motorcycle
+  - Kawasaki superbike
   - 300 hp
-  - extreme motorcycle
-  - exclusive motorcycle
+  - Extreme motorcycle
+  - Exclusive motorcycle
 ---
 
 The **Kawasaki Ninja H2R** is not just a motorcycle; it is an extreme engineering exercise that pushes beyond the conventional limits of motorcycling. Developed by Kawasaki Heavy Industries with collaboration from its aerospace and turbine divisions, the H2R represents the technological peak of the Japanese brand, designed exclusively for track use with absolutely no compromise for urban riding or public road homologation.

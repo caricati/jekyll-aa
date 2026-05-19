@@ -12,6 +12,8 @@ categories:
   - customs
   - cars
 tags:
+  - Ford
+  - Deuce Coupe
   - Ford Deuce Coupe
   - Hot Rods
   - Classic Cars
@@ -20,6 +22,7 @@ tags:
   - Hot Rod Culture
   - Car Collecting
   - Flathead V8
+  - V8
 ---
 
 The 1932 Ford Deuce Coupe is not just an old automobile — it is one of the greatest symbols of global automotive culture. Born during a transformative period in the industry, it became, almost by accident, the archetype of the American hot rod, combining simple engineering, striking design, and nearly limitless customization potential.

@@ -12,21 +12,20 @@ description: Como a arquitetura de 800V está revolucionando os carros elétrico
 categories:
   - eletricos
 tags:
-  - carros elétricos
-  - arquitetura 800V
-  - recarga rápida veículos elétricos
-  - tempo de carregamento bateria
-  - tecnologia automotiva elétrica
-  - autonomia carros elétricos
-  - infraestrutura de carregamento
+  - Bateria
+  - Carros elétricos
+  - Arquitetura 800V
+  - Recarga rápida veículos elétricos
+  - Tecnologia automotiva elétrica
+  - Autonomia
+  - Infraestrutura de carregamento
   - bateria de carro elétrico
-  - eficiência energética automotiva
-  - carregadores ultrarrápidos
-  - curva de carga bateria
-  - inovação mobilidade elétrica
-  - comparativo 400V vs 800V
-  - gestão térmica baterias
-  - futuro dos veículos elétricos
+  - Eficiência energética
+  - Carregadores ultrarrápidos
+  - Inovação mobilidade elétrica
+  - Comparativo 400V vs 800V
+  - Gestão térmica baterias
+  - Futuro dos veículos elétricos
 ---
 
 A ansiedade com a autonomia e o tempo de espera nos postos de carregamento estão deixando de ser obstáculos para os motoristas de carros elétricos. O novo padrão da indústria para modelos premium e intermediários agora foca na implementação de **arquiteturas de 800 volts (800V)**. Essa evolução tecnológica é o divisor de águas que permite recuperar de 10% a 80% da carga da bateria em aproximadamente 20 minutos, aproximando a experiência de "abastecer" um elétrico ao tempo gasto em um veículo a combustão.

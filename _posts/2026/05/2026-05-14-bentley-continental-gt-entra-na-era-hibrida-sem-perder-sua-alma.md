@@ -13,16 +13,17 @@ categories:
 audios:
   - /uploads/26/05/bentley-continental-gt-enters-the-hybrid-era-without-losing-its-soul/voice-pt.mp3
 tags:
-  - Bentley Continental GT
   - Bentley
-  - Carro de luxo
+  - Continental GT
+  - Bentley Continental GT
+  - Híbrido
   - Grand tourer
   - Bentley híbrido
   - Supercarro
   - Coupé de luxo
-  - Bentley GT Speed
-  - Automóvel premium
-  - Carro esportivo híbrido
+  - Bentley GT speed
+  - V8
+  - V8 biturbo
 ---
 
 O lendário Bentley Continental GT chega à linha 2026 como um dos automóveis mais sofisticados e tecnologicamente avançados já produzidos pela tradicional fabricante britânica Bentley Motors. Mais do que apenas uma atualização estética ou mecânica, o novo modelo representa uma transformação profunda na filosofia da marca: luxo absoluto aliado à eletrificação de alto desempenho.

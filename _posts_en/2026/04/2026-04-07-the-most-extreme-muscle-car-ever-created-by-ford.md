@@ -11,14 +11,14 @@ description: The 2026 Ford Mustang Dark Horse SC arrives with a 795-horsepower s
 categories:
   - cars
 tags:
-  - supercars
-  - ford
-  - mustang
+  - Supercars
+  - Ford
+  - Mustang
   - V8
   - Ford Mustang Dark Horse SC 2026
   - Mustang Dark Horse SC specifications
-  - powerful American muscle car
-  - supercharged V8 Ford Mustang
+  - Powerful American muscle car
+  - Supercharged V8 Ford Mustang
   - Mustang vs European supercars
   - Track Pack Mustang Dark Horse
   - Ford Racing track technology

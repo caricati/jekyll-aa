@@ -14,15 +14,14 @@ audios:
   - '/uploads/26/05/o-range-rover-vogue-2026-redefine-luxo-potencia-e-tecnologia/voice.mp3'
 tags:
   - SUV
+  - Range Rover Vogue
   - Range Rover Vogue 2026
-  - SUV de luxo
   - Range Rover
-  - Carros de luxo
-  - SUV Premium
+  - Vogue
   - Land Rover
-  - Carros 2026
-  - SUV Britânico
-  - Luxo Automotivo
+  - Britânico
+  - Carro de luxo
+  - V8
 ---
 
 O Range Rover Vogue 2026 representa a evolução máxima do conceito de SUV de luxo da marca britânica Range Rover. Mantendo a tradição de unir sofisticação, desempenho extremo e capacidade off-road, o modelo 2026 chega ainda mais tecnológico, refinado e poderoso. A nova geração do Vogue reforça a identidade minimalista da fabricante, trazendo linhas limpas, presença imponente e um conjunto mecânico preparado para atender tanto quem busca conforto absoluto quanto quem exige performance de alto nível.

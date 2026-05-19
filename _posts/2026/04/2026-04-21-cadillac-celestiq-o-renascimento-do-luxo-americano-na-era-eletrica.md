@@ -12,15 +12,16 @@ categories:
   - eletricos
   - carros
 tags:
-  - carros elétricos
+  - Carros elétricos
+  - Cadillac
+  - Celestiq
   - Cadillac Celestiq
   - Cadillac elétrico
-  - carro de luxo
-  - sedã elétrico premium
-  - carro exclusivo
-  - tecnologia automotiva
-  - carro elétrico de alto desempenho
-  - design automotivo moderno
+  - Carro de luxo
+  - Sedã elétrico premium
+  - Carro exclusivo
+  - Tecnologia automotiva
+  - Carro elétrico de alto desempenho
 ---
 
 O Cadillac Celestiq representa uma mudança profunda na identidade da Cadillac, posicionando a marca americana no seleto universo dos automóveis ultraluxuosos feitos sob medida. Mais do que um simples carro, trata-se de uma obra artesanal sobre rodas, concebida para competir com ícones europeus e redefinir o conceito de exclusividade na era elétrica.

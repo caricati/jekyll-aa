@@ -12,17 +12,17 @@ categories:
   - electrics
   - cars
 tags:
-  - electric cars
-  - supercars
+  - Electric cars
+  - Supercars
+  - Taycan
+  - Porsche
   - Porsche Taycan
-  - premium electric sedan
-  - electric sports car
-  - Porsche Taycan price
-  - electric cars 2026
-  - luxury electric car
-  - electric car performance
-  - automotive technology
-  - electric cars in Brazil
+  - Premium electric sedan
+  - Electric sports car
+  - Electric cars 2026
+  - Luxury electric car
+  - Electric car performance
+  - Automotive technology
   - Porsche Taycan specifications
 ---
 

@@ -11,20 +11,18 @@ description: CB1000 Hornet chega com mais de 150 cv de potência e como uma das 
 categories:
   - motos
 tags:
-  - cb
-  - cb1000
-  - honda
+  - CB
+  - CB1000
+  - Honda
   - CB1000 Hornet
   - Hornet 1000
   - Fireblade
   - Honda CB1000 Hornet 2026
   - CB1000 Hornet especificações
-  - naked 1000cc Honda
-  - moto esportiva alta cilindrada
-  - motor Fireblade Hornet
-  - potência CB1000 Hornet 152 cv
-  - concorrentes Z900 MT-10 GSX-S1000
-  - lançamento Honda Hornet Brasil
+  - Naked 1000cc Honda
+  - Moto esportiva alta cilindrada
+  - Motor Fireblade Hornet
+  - Lançamento
 ---
 
 A nova Honda CB1000 Hornet 2026 marca o retorno definitivo da linha Hornet ao segmento das nakeds de alta cilindrada. Com visual agressivo, motor derivado da lendária Fireblade e um pacote eletrônico moderno, a motocicleta chega como uma das apostas mais fortes da Honda para competir entre as super nakeds premium em 2026.

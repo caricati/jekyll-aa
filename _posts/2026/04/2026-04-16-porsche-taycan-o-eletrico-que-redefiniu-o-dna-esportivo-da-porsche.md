@@ -12,18 +12,19 @@ categories:
   - eletricos
   - carros
 tags:
-  - carros elétricos
-  - supercarros
+  - Carros elétricos
+  - Supercarros
+  - Taycan
+  - Porsche
   - Porsche Taycan
-  - sedan elétrico premium
-  - carro elétrico esportivo
-  - porsche taycan preço
-  - carros elétricos 2026
-  - carro elétrico de luxo
-  - desempenho carros elétricos
-  - tecnologia automotiva
-  - carros elétricos no brasil
-  - porsche taycan ficha técnica
+  - Sedan elétrico premium
+  - Carro elétrico esportivo
+  - Carros elétricos 2026
+  - Carro elétrico de luxo
+  - Desempenho carros elétricos
+  - Tecnologia automotiva
+  - Carros elétricos no brasil
+  - Ficha técnica
 ---
 
 O Porsche Taycan não foi apenas a estreia da Porsche no universo dos carros 100% elétricos — ele representou uma mudança estratégica profunda na indústria automotiva. Lançado inicialmente em 2019 e constantemente atualizado desde então, o modelo consolidou-se como uma das principais referências quando o assunto é desempenho aliado à eletrificação.

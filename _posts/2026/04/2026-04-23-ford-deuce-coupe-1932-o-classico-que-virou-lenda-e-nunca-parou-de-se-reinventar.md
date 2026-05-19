@@ -12,6 +12,8 @@ categories:
   - customizacoes
   - carros
 tags:
+  - Deuce Coupe
+  - Ford
   - Ford Deuce Coupe
   - Hot Rods
   - Carros Clássicos
@@ -19,6 +21,7 @@ tags:
   - Ford 1932
   - Cultura Hot Rod
   - Colecionismo de Carros
+  - V8
   - V8 Flathead
 ---
 

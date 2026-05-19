@@ -12,14 +12,16 @@ categories:
   - customizacoes
   - carros
 tags:
-  - Customização Automotiva
+  - Ford
+  - Mustang
   - Ford Mustang Hoonicorn
+  - Customização automotiva
+  - V8
   - Ken Block
-  - Mustang AWD
   - Gymkhana
   - Mustang 1400 cv
   - Drift extremo
-  - Hoonigan Racing
+  - Hoonigan racing
   - Muscle car modificado
 ---
 

@@ -11,16 +11,17 @@ description: "Kawasaki Ninja H2R: conheça a moto mais extrema do mundo, com mai
 categories:
   - motos
 tags:
-  - moto esportiva
-  - kawasaki
-  - kawasaki h2r
-  - ninja h2r
-  - moto supercharged
-  - moto de pista
-  - superbike kawasaki
+  - Moto esportiva
+  - Kawasaki
+  - Kawasaki h2r
+  - Ninja h2r
+  - H2R
+  - Moto supercharged
+  - Moto de pista
+  - Superbike kawasaki
   - 300cv
-  - moto extrema
-  - moto exclusiva
+  - Moto extrema
+  - Moto exclusiva
 ---
 
 

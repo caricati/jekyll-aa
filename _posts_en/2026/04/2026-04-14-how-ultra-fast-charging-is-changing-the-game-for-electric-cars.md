@@ -12,21 +12,21 @@ description: Discover how 800V architecture is revolutionizing electric cars by 
 categories:
   - electrics
 tags:
-  - electric cars
+  - Electric cars
   - 800V architecture
-  - fast charging electric vehicles
-  - battery charging time
-  - electric automotive technology
-  - electric car range
-  - charging infrastructure
-  - electric car battery
-  - automotive energy efficiency
-  - ultra-fast chargers
-  - battery charging curve
-  - electric mobility innovation
+  - Fast charging electric vehicles
+  - Battery charging time
+  - Electric automotive technology
+  - Electric car range
+  - Charging infrastructure
+  - Electric car battery
+  - Automotive energy efficiency
+  - Ultra-fast chargers
+  - Battery charging curve
+  - Electric mobility innovation
   - 400V vs 800V comparison
-  - battery thermal management
-  - future of electric vehicles
+  - Battery thermal management
+  - Future of electric vehicles
 ---
 
 Range anxiety and long waits at charging stations are no longer major obstacles for electric car drivers. The new industry standard for premium and mid-range models is now focused on implementing **800-volt (800V) architectures**. This technological evolution is the breakthrough that allows batteries to recover from 10% to 80% charge in approximately 20 minutes, bringing the experience of “refueling” an EV much closer to the time spent at a gas station with a combustion vehicle.

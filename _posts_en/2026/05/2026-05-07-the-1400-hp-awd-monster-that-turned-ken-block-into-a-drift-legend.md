@@ -12,15 +12,17 @@ categories:
   - customs
   - cars
 tags:
+  - Ford
+  - Mustang
   - Automotive Customization
   - Ford Mustang Hoonicorn
+  - V8
   - Ken Block
-  - AWD Mustang
   - Gymkhana
   - 1400 HP Mustang
   - Extreme Drift
-  - Hoonigan Racing
-  - Modified Muscle Car
+  - Hoonigan racing
+  - Modified muscle car
 ---
 
 The Ford Mustang Hoonicorn is not just a modified Mustang. It is probably one of the craziest cars ever created for the world of drifting, automotive culture, and four-wheel entertainment. Developed specifically for Ken Block’s legendary Gymkhana productions, the Hoonicorn completely redefined what the world understood as an American muscle car. With an aggressive appearance, all-wheel drive, and more than 1,400 horsepower, the project became a true symbol of “hoonigan” culture, blending extreme engineering, visual spectacle, and brutal performance.

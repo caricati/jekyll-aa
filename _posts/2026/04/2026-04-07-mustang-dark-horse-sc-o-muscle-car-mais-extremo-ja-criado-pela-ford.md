@@ -11,13 +11,13 @@ description: O Ford Mustang Dark Horse SC 2026 chega com motor V8 supercharged d
 categories:
   - carros
 tags:
-  - supercarros
-  - ford
-  - mustang
+  - Supercarros
+  - Ford
+  - Mustang
   - V8
   - Ford Mustang Dark Horse SC 2026
   - Mustang Dark Horse SC especificações
-  - muscle car americano potente
+  - Muscle car americano potente
   - V8 supercharged Ford Mustang
   - Mustang vs supercarros europeus
   - Track Pack Mustang Dark Horse

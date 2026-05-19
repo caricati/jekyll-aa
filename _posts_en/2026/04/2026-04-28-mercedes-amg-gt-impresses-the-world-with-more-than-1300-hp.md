@@ -12,16 +12,19 @@ categories:
   - electrics
   - cars
 tags:
-  - electric cars
-  - supercars
-  - hypercars
+  - Electric cars
+  - Supercars
+  - Hypercars
+  - Mercedes
+  - AMG GT EV
+  - AMG
   - Mercedes-AMG GT EV
-  - electric AMG
-  - electric sports sedan
-  - luxury electric car
-  - electric supercar
+  - Electric AMG
+  - Electric sports sedan
+  - Luxury electric car
+  - Electric supercar
   - AMG performance
-  - electric hypercar
+  - Electric hypercar
   - Mercedes EV 2026
 ---
 
