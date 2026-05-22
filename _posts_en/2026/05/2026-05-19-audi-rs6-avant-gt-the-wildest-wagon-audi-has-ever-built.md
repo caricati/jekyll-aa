@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: en
+trending: true
 ref: audi-rs6-avant-gt-the-wildest-wagon-audi-has-ever-built
 title: "Audi RS6 Avant GT: The wildest wagon Audi has ever built"
 date: 2026-05-19 16:00:00 -0300
